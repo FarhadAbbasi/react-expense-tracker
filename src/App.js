@@ -7,6 +7,8 @@ import { TransactionList } from './Components/TransactionList';
 import { AccSummery } from './Components/AccSummery';
 import { AddTransaction } from './Components/AddTransaction';
 import { Balance } from './Components/Balance';
+
+// Import Global State Functions
 import { GlobalProvider } from './Context/GlobalState';
 
 function App() {

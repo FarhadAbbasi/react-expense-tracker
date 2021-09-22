@@ -1,4 +1,5 @@
 import React from 'react'
+import { GlobalContext } from '../Context/GlobalState';
 
 export const Transaction = ( {transaction} ) => {
 
