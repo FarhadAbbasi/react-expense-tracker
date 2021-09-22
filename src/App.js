@@ -7,11 +7,12 @@ import { TransactionList } from './Components/TransactionList';
 import { AccSummery } from './Components/AccSummery';
 import { AddTransaction } from './Components/AddTransaction';
 import { Balance } from './Components/Balance';
+import { GlobalProvider } from './Context/GlobalState';
 
 function App() {
 
   return (
-    <div className="App">
+    <GlobalProvider>
       <Header />
         <div className= "container">
           <Balance />
@@ -20,7 +21,7 @@ function App() {
           <AddTransaction />
 
         </div>
-    </div>
+    </GlobalProvider>
   );
 }
 
