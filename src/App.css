@@ -30,6 +30,9 @@ h1 {
   letter-spacing: 1px;
   margin: 0;
 }
+h2 {  
+  color: purple;
+}
 
 h3 {
   border-bottom: 1px solid #bbb;
