@@ -1,5 +1,6 @@
-Surge Link 
+This is a React 'Expense Tracker' Application using React Hooks & Context API.
 
+Surge Link 
 http://farhad-bc-react-expense-tracker.surge.sh/
 
 
